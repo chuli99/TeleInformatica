@@ -1,0 +1,7 @@
+*** Ping: testing ping reachability
+r0 -> r1 r2 h1 h2 
+r1 -> r0 r2 h1 h2 
+r2 -> r0 r1 h1 h2 
+h1 -> r0 r1 r2 h2 
+h2 -> r0 r1 r2 h1 
+*** Results: 0% dropped (20/20 received)
